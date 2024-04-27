@@ -1,0 +1,22 @@
+GET http://127.0.0.1:4000
+
+###
+POST http://127.0.0.1:4000
+Content-Type: application/json
+
+{
+    "name": "Dika",
+    "prodi": "Teknik Komputer"
+}
+
+###
+DELETE http://127.0.0.1:4000/Dika
+
+###
+PUT http://127.0.0.1:4000
+Content-Type: application/json
+
+{
+    "name": "Hisyam",
+    "prodi": "Teknik Komputer"
+}
